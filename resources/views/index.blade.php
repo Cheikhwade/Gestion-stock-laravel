@@ -27,28 +27,28 @@
                 <div class="form-group">
 
                     <div>
-                        <img src="{{asset('/images/chocolate-ice.jpg')}}"  id="Poulet-entier" class="photo" width="100" height="100" data-toggle="modal" data-target="#exampleModal">
+                        <img src="{{asset('/images/index5.jpeg')}}"  id="Poulet-entier" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                             <b>Poulet entier</b>
                     </div>
 
 
                     <div>
-                    <img src="{{asset('/images/mango.jpg')}}" id="Demi-Poulet" class="photo" width="100" height="100" data-toggle="modal" data-target="#exampleModal">
+                    <img src="{{asset('/images/images.jpeg')}}" id="Demi-Poulet" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Demi-Poulet</b>
                     </div>
 
                     <div>
-                    <img src="{{asset('/images/venila.jpg')}}" id="Chandwich-Stec" class="photo" width="100" height="100" data-toggle="modal" data-target="#exampleModal">
+                    <img src="{{asset('/images/index1.jpeg')}}" id="Chandwich-Stec" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Chandwich-Stec</b>
                     </div>
 
                     <div>
-                    <img src="{{asset('/images/sww.jpg')}}" id="Chandwich-Broch" class="photo" width="100" height="100" data-toggle="modal" data-target="#exampleModal">
+                    <img src="{{asset('/images/index.jpeg')}}" id="Chandwich-Broch" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Chandwich-Broch</b>
                     </div>
 
                     <div>
-                    <img src="{{asset('/images/mixfruit.jpg')}}" id="Chandwich-Foie" class="photo" width="100" height="100" data-toggle="modal" data-target="#exampleModal">
+                    <img src="{{asset('/images/index2.jpeg')}}" id="Chandwich-Foie" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Chandwich-Foie</b>
                     </div>
                 </div>
