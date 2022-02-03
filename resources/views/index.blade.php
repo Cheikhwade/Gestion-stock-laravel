@@ -217,8 +217,6 @@
         $('#total').val(total);
         $(e).parent().parent().remove();
 
-
-
     }
 
     $('#reset').click(function()
