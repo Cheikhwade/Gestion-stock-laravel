@@ -36,10 +36,18 @@
                     <img src="{{asset('/images/images.jpeg')}}" id="Demi-Poulet" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Demi-Poulet</b>
                     </div>
+                     <div>
+                    <img src="{{asset('/images/carpoulet.jpeg')}}" id="Car-Poulet" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Car-Poulet</b>
+                    </div>
 
                     <div>
                     <img src="{{asset('/images/index1.jpeg')}}" id="Chandwich-Stec" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Chandwich-Stec</b>
+                    </div>
+                     <div>
+                    <img src="{{asset('/images/index1.jpeg')}}" id="Chandwich-Poulet" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Chandwich-Poulet</b>
                     </div>
 
                     <div>
@@ -51,6 +59,27 @@
                     <img src="{{asset('/images/index2.jpeg')}}" id="Chandwich-Foie" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
                         <b>Chandwich-Foie</b>
                     </div>
+                    <div>
+                    <img src="{{asset('/images/fataya.jpeg')}}" id="Fataya-simple" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Fataya-simple</b>
+                    </div>
+                     <div>
+                    <img src="{{asset('/images/fatayacOMP.jpeg')}}" id="Fataya-complet" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Fataya-complet</b>
+                    </div>
+                     <div>
+                    <img src="{{asset('/images/shawarma.jpeg')}}" id="Shawarma" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Shawarma</b>
+                    </div>
+                     <div>
+                    <img src="{{asset('/images/ham.jpeg')}}" id="Hamburger" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Hamburger</b>
+                    </div>
+                     <div>
+                    <img src="{{asset('/images/burger.jpeg')}}" id="Hamburger-royal" class="photo" width="80" height="70" data-toggle="modal" data-target="#exampleModal">
+                        <b>Hamburger-royal</b>
+                    </div>
+
                 </div>
             </form>
         </div>
@@ -59,12 +88,12 @@
 
     <div class="col-sm-6">
         <div class="container">
-            <div class="list-group-item list-group-item-action active">Ajouter</div>
+            <div class="list-group-item list-group-item-action active">Gestion</div>
             <table id="tbl-item" class="table table-dark table-bordered" cellpadding="0" cellspacing="0" width="100%" align="center">
                 <thead>
 
                 <tr>
-                    <th>Delete</th>
+                    <th>supprime</th>
                     <th>Produit</th>
                     <th>Prix</th>
                     <th>Qty</th>
@@ -162,12 +191,26 @@
             price = 2500;
 
         }
+        else if(a == "Car-Poulet")
+        {
+            item = "Car-Poulet";
+            price = 1500;
+
+        }
         else if(a == "Chandwich-Stec")
         {
             item = "Chandwich-Stec";
             price = 2000;
 
         }
+
+        else if(a == "Chandwich-Poulet")
+        {
+            item = "Chandwich-Poulet";
+            price = 1000;
+
+        }
+
         else if(a == "Chandwich-Broch")
         {
             item = "Chandwich-Broch";
@@ -182,13 +225,48 @@
 
         }
 
+        else if(a == "Fataya-simple")
+        {
+            item = "Fataya-simple";
+            price = 500;
+
+        }
+
+         else if(a == "Fataya-complet")
+        {
+            item = "Fataya-complet";
+            price = 800;
+
+        }
+
+        else if(a == "Shawarma")
+        {
+            item = "Shawarma";
+            price = 1000;
+
+        }
+
+        else if(a == "Hamburger")
+        {
+            item = "Hamburger";
+            price = 1200;
+
+        }
+
+        else if(a == "Hamburger-royal")
+        {
+            item = "Hamburger-royal";
+            price = 1500;
+
+        }
+
         var qty = $('#qty').val();
         tot = qty * price;
 
         var table1 =
 
             "<tr>" +
-            "<td><button type='button' name='record' class='btn btn-warning' onclick='deleterow(this)'>Delete</td>" +
+            "<td><button type='button' name='record' class='btn btn-warning' onclick='deleterow(this)'>Supprimer</td>" +
             "<td>" + item    +  "</td>" +
             "<td>" + price    +  "</td>" +
 
